@@ -72,3 +72,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 *.unity
 *.meta
+*.graph
+Test_task_from_Elephant_Game/Library/Artifacts/00/0023a3dfb2731d146dfa43259288cc9e
+Test_task_from_Elephant_Game/Library/Artifacts/00/00083b8e067021deb7d3bfeeac54d5c7
+*.png
+*.cs
+*.asset
