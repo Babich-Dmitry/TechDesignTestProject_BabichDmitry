@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI_Text Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI_Text
+  m_TableCollectionNameGuidString: 5e15a6af584688e46802d28ea8e695d1
+  m_Entries:
+  - m_Id: 9982930944
+    m_Key: 001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141600190464
+    m_Key: 002
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4471341705956163589
+  references:
+    version: 2
+    RefIds:
+    - rid: 4471341705956163589
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1687973573288
