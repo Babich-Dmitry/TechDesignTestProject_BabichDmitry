@@ -333,6 +333,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CircleAnimation.cs"
 "Assets/Scripts/Door_lever_Script.cs"
+"Assets/Scripts/LocaleSelector.cs"
 "Assets/Scripts/SceneSwitcher_Script.cs"
 "Assets/Scripts/SpriteFlipper.cs"
 -langversion:9.0

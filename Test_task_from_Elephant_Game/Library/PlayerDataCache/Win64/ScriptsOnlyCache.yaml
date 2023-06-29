@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CircleAnimation
     - Door_lever_Script
+    - LocaleSelector
     - SceneSwitcher_Script
     - SpriteFlipper
     Unity.2D.Animation.Editor.dll:
@@ -49,6 +50,9 @@ ScriptsOnlyBuild:
     - UnityEngine.Localization.Tables.SharedTableData
     - UnityEngine.Localization.Tables.StringTable
     - UnityEngine.Localization.VariantsPropertyDriver
+    Unity.ResourceManager.dll:
+    - MonoBehaviourCallbackHooks
+    - UnityEngine.ResourceManagement.Util.DelayedActionManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -142,17 +146,35 @@ ScriptsOnlyBuild:
     - Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials
   methodsToPreserve:
   - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
+  - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
+  - assembly: Assembly-CSharp
     fullTypeName: SceneSwitcher_Script
     methodName: SwitchScene
+  - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
+  - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
+  - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
   - assembly: Assembly-CSharp
     fullTypeName: SceneSwitcher_Script
     methodName: SwitchScene
+  - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
   sceneClasses:
     Assets/Scenes/First_Scene.unity:
     - Class: 1
@@ -225,6 +247,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10126}
     - Class: 114
       Script: {instanceID: 40212}
+    - Class: 114
+      Script: {instanceID: 50252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -306,7 +330,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10126}
     - Class: 114
       Script: {instanceID: 40212}
+    - Class: 114
+      Script: {instanceID: 50252}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -2015,6 +2043,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CircleAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LocaleSelector
   platform: 19
   scenePathNames:
   - Assets/Scenes/First_Scene.unity
